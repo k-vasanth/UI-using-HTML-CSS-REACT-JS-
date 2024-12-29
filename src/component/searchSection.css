@@ -1,0 +1,154 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+  }
+  
+  /* Section Styling */
+  .bg-gradient-to-r {
+    background: linear-gradient(to right, #81e6d9, #4fd1c5);
+  }
+  
+  .py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .container {
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 1200px;
+  }
+  
+  /* Header Section */
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .text-blue-900 {
+    color: #1e3a8a;
+  }
+  
+  .text-blue-800 {
+    color: #2b6cb0;
+  }
+  
+  .mb-6 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Input and Button Styling */
+  .input {
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .gap-2 {
+    gap: 0.5rem;
+  }
+  
+  .flex-1 {
+    flex: 1;
+  }
+  
+  .bg-yellow-400 {
+    background-color: #f6e05e;
+  }
+  
+  .text-black {
+    color: black;
+  }
+  
+  .hover\:bg-yellow-500:hover {
+    background-color: #ecc94b;
+  }
+  
+  .max-w-3xl {
+    max-width: 48rem;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .space-y-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .bg-white {
+    background-color: white;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  /* Job Tags Styling */
+  .mt-6 {
+    margin-top: 1.5rem;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .gap-2 {
+    gap: 0.5rem;
+  }
+  
+  .bg-white\/80 {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  .py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .hover\:bg-white:hover {
+    background-color: white;
+  }
+  

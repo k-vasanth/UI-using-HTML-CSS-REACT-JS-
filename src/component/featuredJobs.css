@@ -1,0 +1,133 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+  }
+  
+  /* Container */
+  .container {
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 1200px;
+  }
+  
+  /* Section Title */
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Grid Layout */
+  .grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media (max-width: 767px) {
+    .md\:grid-cols-2 {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-content {
+    padding: 1.5rem;
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Card Company */
+  .card-company {
+    color: #4b5563;
+    margin-bottom: 1rem;
+  }
+  
+  /* Card Details */
+  .card-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-detail {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .card-detail-icon {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.25rem;
+  }
+  
+  /* Badge Styling */
+  .badge {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 12px;
+    background-color: #e5e7eb;
+    color: #4b5563;
+  }
+  
+  .badge-secondary {
+    background-color: #e5e7eb;
+    color: #4b5563;
+  }
+  
+  /* Button Styling */
+  .button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .button-primary {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+  }
+  
+  .button-primary:hover {
+    background-color: #2563eb;
+  }
+  
+  .button-outline {
+    background-color: transparent;
+    border: 1px solid #3b82f6;
+    color: #3b82f6;
+  }
+  
+  .button-outline:hover {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
